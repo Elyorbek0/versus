@@ -1,0 +1,86 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.cards_info h1 {
+  font-size: 30px;
+  color: blueviolet;
+  margin: 80px 0px;
+  text-align: center;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  border: 2px double blueviolet;
+  border-radius: 30px;
+  text-align: center;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.card:hover {
+  bottom: 50px;
+  -webkit-box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px black;
+  z-index: 1;
+  -webkit-filter: none;
+  filter: none;
+}
+
+.card img {
+  border-radius: 30px;
+  width: 100%;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card h2 {
+  text-align: center;
+  color: plum;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 20px;
+  color: plum;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.card button {
+  color: plum;
+  background-color: rgb(171, 84, 252);
+  border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+  width: 100px;
+}
